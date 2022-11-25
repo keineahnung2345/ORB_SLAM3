@@ -103,7 +103,8 @@ int main(int argc, char **argv)
         {
 
             // Read image from file
-            im = cv::imread(vstrImageFilenames[seq][ni],cv::IMREAD_UNCHANGED);
+            // https://github.com/UZ-SLAMLab/ORB_SLAM3/issues/302
+            im = cv::imread(vstrImageFilenames[seq][ni],cv::IMREAD_GRAYSCALE);
 
             // clahe
             clahe->apply(im,im);

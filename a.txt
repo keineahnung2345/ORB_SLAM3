@@ -1,0 +1,57 @@
+Configuring and building Thirdparty/DBoW2 ...
+mkdir: cannot create directory ‘build’: File exists
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubt/Documents/installation/ORB_SLAM3/Thirdparty/DBoW2/build
+[100%] Built target DBoW2
+Configuring and building Thirdparty/g2o ...
+mkdir: cannot create directory ‘build’: File exists
+-- BUILD TYPE:Release
+-- Compiling on Unix
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubt/Documents/installation/ORB_SLAM3/Thirdparty/g2o/build
+[100%] Built target g2o
+Uncompress vocabulary ...
+Configuring and building ORB_SLAM3 ...
+mkdir: cannot create directory ‘build’: File exists
+Build type: Release
+-- Using flag -std=c++11.
+OPENCV VERSION:
+4.2.0
+CMake Warning at CMakeLists.txt:49 (find_package):
+  By not providing "Findrealsense2.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "realsense2", but CMake did not find one.
+
+  Could not find a package configuration file provided by "realsense2" with
+  any of the following names:
+
+    realsense2Config.cmake
+    realsense2-config.cmake
+
+  Add the installation prefix of "realsense2" to CMAKE_PREFIX_PATH or set
+  "realsense2_DIR" to a directory containing one of the above files.  If
+  "realsense2" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- BUILD TYPE:Release
+-- Compiling on Unix
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubt/Documents/installation/ORB_SLAM3/build
+[ 37%] Built target g2o
+[ 70%] Built target ORB_SLAM3
+[ 73%] Built target rgbd_tum
+[ 75%] Built target mono_tum
+[ 78%] Built target stereo_inertial_euroc
+[ 80%] Built target mono_kitti
+[ 82%] Built target stereo_kitti
+[ 85%] Built target stereo_euroc
+[ 87%] Built target stereo_tum_vi
+[ 90%] Built target mono_euroc
+[ 92%] Built target mono_inertial_tum_vi
+[ 95%] Built target mono_tum_vi
+[ 97%] Built target mono_inertial_euroc
+[100%] Built target stereo_inertial_tum_vi

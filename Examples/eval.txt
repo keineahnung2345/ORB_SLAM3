@@ -1,0 +1,119 @@
+Launching MH01 with Stereo sensor
+num_seq = 1
+file name: dataset-MH01_stereo
+Loading images for sequence 0...LOADED!
+
+-------
+
+ORB-SLAM3 Copyright (C) 2017-2020 Carlos Campos, Richard Elvira, Juan J. Gómez, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+ORB-SLAM2 Copyright (C) 2014-2016 Raúl Mur-Artal, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+Input sensor was set to: Stereo
+
+Loading ORB Vocabulary. This could take a while...
+Vocabulary loaded!
+
+Creation of new map with id: 0
+Creation of new map with last KF id: 0
+Seq. Name: 
+
+Camera Parameters: 
+- Camera: Pinhole
+- fx: 435.20468139648438
+- fy: 435.20468139648438
+- cx: 367.45172119140625
+- cy: 252.20085144042969
+- k1: 0
+- k2: 0
+- p1: 0
+- p2: 0
+- fps: 20
+- color order: RGB (ignored if grayscale)
+
+Depth Threshold (Close/Far Points): 3.8527247905731201
+
+ORB Extractor Parameters: 
+- Number of Features: 1200
+- Scale Levels: 8
+- Scale Factor: 1.2000000476837158
+- Initial Fast Threshold: 20
+- Minimum Fast Threshold: 7
+First KF:0; Map init KF:0
+New Map created with 546 points
+TRACK_REF_KF: Less than 15 matches!!
+KF in map: 504
+Fail to track local map!
+Fail to track local map!
+Fail to track local map!
+Fail to track local map!
+Relocalized!!
+TRACK_REF_KF: Less than 15 matches!!
+KF in map: 505
+Fail to track local map!
+Fail to track local map!
+Fail to track local map!
+Relocalized!!
+
+ TIME STATS in ms (mean$\pm$std)
+OpenCV version: 4.2.0
+---------------------------
+Tracking
+
+Stereo Rectification: 1.864$\pm$0.78878
+ORB Extraction: 18.617$\pm$4.1866
+Stereo Matching: 4.8087$\pm$1.0839
+Pose Prediction: 3.3832$\pm$0.97777
+LM Track: 8.0496$\pm$3.6768
+New KF decision: 0.2219$\pm$0.39967
+Total Tracking: 40.107$\pm$11.105
+---------------------------
+
+Local Map Tracking complexity (mean$\pm$std)
+Local KFs: 120.49$\pm$83.62
+Local MPs: 4691.9$\pm$2459.2
+
+
+
+Local Mapping
+
+KF Insertion: 19.953$\pm$8.3719
+MP Culling: 0.17679$\pm$0.059664
+MP Creation: 56.931$\pm$20.393
+LBA: 201.19$\pm$148.63
+KF Culling: 8.1496$\pm$5.4487
+Total Local Mapping: 247.02$\pm$171.93
+---------------------------
+
+LBA complexity (mean$\pm$std)
+LBA Edges: 21277$\pm$9562.3
+LBA KF optimized: 47.751$\pm$23.96
+LBA KF fixed: 134.63$\pm$115.7
+LBA MP: 2792.5$\pm$1037.6
+
+LBA executions: 470
+LBA aborts: 308
+---------------------------
+
+Map complexity
+KFs in map: 500
+MPs in map: 12257
+
+
+
+Place Recognition (mean$\pm$std)
+
+Database Query: 1.3256$\pm$0.98619
+SE3 estimation: 4.7758$\pm$3.4321
+Total Place Recognition: 6.0785$\pm$4.1079
+
+Saving trajectory to f_dataset-MH01_stereo.txt ...
+
+End of saving trajectory to f_dataset-MH01_stereo.txt ...
+
+Saving keyframe trajectory to kf_dataset-MH01_stereo.txt ...
+------------------------------------
+Evaluation of MH01 trajectory with Stereo sensor
+./euroc_eval_examples.sh: line 9: python: command not found
